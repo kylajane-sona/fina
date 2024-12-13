@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Kyla Jane's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            font-family: 'Arial', sans-serif;
+            color: #343a40;
+        }
+        .navbar {
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            font-weight: 500;
+        }
+        .navbar-brand span {
+            color: #007bff;
+        }
+        .navbar-nav .nav-link {
+            transition: color 0.3s;
+            color: #007bff;
+        }
+        .navbar-nav .nav-link:hover {
+            color: white;
+        }
+        .contact-section {
+            padding: 60px 15px;
+            background-color: #f8f9fa;
+        }
+        .contact-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .contact-container h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            font-size: 1.2rem;
+            color: #343a40;
+        }
+        .contact-item i {
+            font-size: 2rem;
+            margin-right: 15px;
+            color: #007bff;
+        }
+        .contact-item a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact-item a:hover {
+            color: #1e90ff;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            border-top: 3px solid #007bff;
+        }
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #1e90ff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Kyla <span>Jane</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <h1>Contact Me</h1>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class='bx bxs-phone'></i>
+                    <span>Phone: 09951923831</span>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bxl-gmail'></i>
+                    <span>Email: <a href="mailto:kylajanelagrimasona@gmail.com">kylajanelagrimasona@gmail.com</a></span>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bxl-facebook'></i>
+                    <span>Facebook: <a href="https://www.facebook.com/kylajane.sona?mibextid=ZbWKwL" target="_blank">KYLA JANE L. SONA</a></span>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bxl-instagram'></i>
+                    <span>Instagram: <a href="https://www.instagram.com/ydk.kylie/profilecard/?igsh=bnU1YTNmNzZoM3Jx" target="_blank">@ydk.kylie</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
